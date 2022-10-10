@@ -23,7 +23,11 @@ sale of banking products
 **Education**
 2018
 Higher education: BELARUS STATE ECONOMIC UNIVERSITY
+<<<<<<< HEAD
 *Marketing and logistics*: Marketer-economist 
+=======
+Marketing and logistics: Marketer-economist 
+>>>>>>> 2e82748 (add cv)
 
 **Courses**
 2022
@@ -57,7 +61,10 @@ React
 Git
 React router dom
 Redux
+<<<<<<< HEAD
+=======
 Typescript
+>>>>>>> 2e82748 (add cv)
 Sass
 Bootstrap
 Styled-components
