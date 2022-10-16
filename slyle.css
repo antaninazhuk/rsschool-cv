@@ -149,10 +149,29 @@ header {
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-block;
+    margin-left: 15px;
 }
 
-h1 {
+header nav ul li a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 a {
     color: white;
     font-size: 24px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
 }
