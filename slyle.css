@@ -132,8 +132,15 @@ table {
     border-spacing: 0;
 }
 
-header {
-    background-color: rgb(30, 30, 30);
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header,
+footer {
+    background-color: rgba(30, 30, 30, 0.949);
     padding: 30px 0;
 }
 
@@ -166,7 +173,13 @@ h1 a {
 }
 
 main {
-    padding: 20px 0;
+    padding: 30px 0;
+    flex-grow: 1;
+}
+
+main img {
+    height: 10%;
+    width: 10%;
 }
 
 h2 {
@@ -174,4 +187,24 @@ h2 {
     font-size: 16px;
     font-weight: bold;
     margin-top: 20px;
+}
+
+h2:first-child {
+    margin-top: 0;
+}
+
+footer img {
+    height: 32px;
+    width: 90px;
+}
+
+.footer_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p,
+footer p a {
+    color: white;
 }
