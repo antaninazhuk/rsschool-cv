@@ -62,9 +62,12 @@ Git
 React router dom
 Redux
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Typescript
 >>>>>>> 2e82748 (add cv)
+=======
+>>>>>>> 5f86f4554b366f99065ad7c9916da361a1b4d666
 Sass
 Bootstrap
 Styled-components
